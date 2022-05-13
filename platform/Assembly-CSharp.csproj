@@ -623,6 +623,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{4030d8b1-84f2-46a8-9fa7-706e2779fa19}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
       <Project>{74641b18-bab2-7d47-b869-b16f61726f20}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
@@ -699,6 +703,10 @@
       <Project>{91d2e596-d733-b608-1b30-83417414fa1f}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{bf6513d9-c250-8e61-f3eb-d58c9b5fb043}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{4859b8c4-6739-225f-49d9-2dc963c46394}</Project>
       <Name>Unity.Mathematics</Name>
@@ -750,14 +758,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{d424bdd1-4bc3-4bff-8d57-52bb1fdbd798}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{4030d8b1-84f2-46a8-9fa7-706e2779fa19}</Project>
-      <Name>Unity.2D.Tilemap.Extras</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{bf6513d9-c250-8e61-f3eb-d58c9b5fb043}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
