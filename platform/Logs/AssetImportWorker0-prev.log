@@ -1,0 +1,262 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/antonio/platform
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59021
+Successfully changed project path to: C:/Users/antonio/platform
+C:/Users/antonio/platform
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/antonio/platform/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   
+    VRAM:     8042 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001853 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (380ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (285ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (118ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (731ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2350 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2782.
+Total: 2.375200 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.100400 ms  DeleteObjects: 0.104500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Forest
+  artifactKey: Guid(f9056771729932b49945aad3fbc3da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest using Guid(f9056771729932b49945aad3fbc3da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e365f44b6b625491b7cba4a88d498db8') in 0.005170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.467933 seconds.
+  path: Assets/Forest/bgrd_tree1.png
+  artifactKey: Guid(56094e2acd253484bb98552734b50ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/bgrd_tree1.png using Guid(56094e2acd253484bb98552734b50ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da612740ea740a5b77916b3e2c89f11f') in 0.085383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Forest/bgrd_tree4.png
+  artifactKey: Guid(a7af38b19336e8747911e123569763dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/bgrd_tree4.png using Guid(a7af38b19336e8747911e123569763dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28e2ae50d384cc6eae08922e5fdd5cc') in 0.011412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Forest/env_ground.png
+  artifactKey: Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_ground.png using Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aaea2675c51d7e0206a025e73434ba') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Forest/wood_env.png
+  artifactKey: Guid(63101ec7bbedd644b9a1c113ad0c6698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/wood_env.png using Guid(63101ec7bbedd644b9a1c113ad0c6698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f854a16166d6f41a87005588187c4e23') in 0.011672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Forest/env_rock.png
+  artifactKey: Guid(6c212e47a0a6ef244970032e089690aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_rock.png using Guid(6c212e47a0a6ef244970032e089690aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37413c6ca760233e6b309a45cd30ec6a') in 0.014106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Forest/env_trees.png
+  artifactKey: Guid(dc156647ca7ba144d920289bf76ef88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_trees.png using Guid(dc156647ca7ba144d920289bf76ef88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02fc319df73b8e9f5540acb313f3ed2') in 0.012720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Forest/bgrd_tree5.png
+  artifactKey: Guid(ab8be6631d67a784d86e6a37ad480d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/bgrd_tree5.png using Guid(ab8be6631d67a784d86e6a37ad480d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b34e6372f4313d21866438f77cf10d') in 0.011098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Forest/top_far_bgrnd.png
+  artifactKey: Guid(d40e3b69701598c45a02de8b9737b28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/top_far_bgrnd.png using Guid(d40e3b69701598c45a02de8b9737b28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2577c22baf7301b971118923ef08b8e2') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Forest/decorative_obj.png
+  artifactKey: Guid(e57b5b0ba00a1d74894524c1d5198645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/decorative_obj.png using Guid(e57b5b0ba00a1d74894524c1d5198645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b1efb48b59b5afdffb6cb3f4d85aff') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Forest/main_background.png
+  artifactKey: Guid(b4e6f430bf6c95345a9910dd994b845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/main_background.png using Guid(b4e6f430bf6c95345a9910dd994b845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd105f0db3643e54ae59a49c5add4b283') in 0.021954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Forest/bgrd_tree3.png
+  artifactKey: Guid(195c6ff212a978045861ad789c6c90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/bgrd_tree3.png using Guid(195c6ff212a978045861ad789c6c90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea05467ed2c633d5997abe990843724') in 0.009489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Forest/env_mon.png
+  artifactKey: Guid(f0e86d95894f99045a3872e183e5068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_mon.png using Guid(f0e86d95894f99045a3872e183e5068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc5eb9e3c6c40294e74e013ebee1705') in 0.012170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Forest/bgrd_tree2.png
+  artifactKey: Guid(b45183b3f26f08c418593c2fb2634183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/bgrd_tree2.png using Guid(b45183b3f26f08c418593c2fb2634183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0629645293ae2e79de0a9d3cec32c9e5') in 0.009679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Forest/castle_env.png
+  artifactKey: Guid(e73cfc14e42036640921c56d9b71263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/castle_env.png using Guid(e73cfc14e42036640921c56d9b71263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037898f4de2f95b80d5b78529ebae353') in 0.011405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.272845 seconds.
+  path: Assets/Forest/castle_env.png
+  artifactKey: Guid(e73cfc14e42036640921c56d9b71263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/castle_env.png using Guid(e73cfc14e42036640921c56d9b71263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9845b224a1376904e7332a1e7c1526') in 0.010922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.192279 seconds.
+  path: Assets/Forest/env_ground.png
+  artifactKey: Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_ground.png using Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1f27b477a5216f64be0dce834df858') in 0.009789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.872412 seconds.
+  path: Assets/Forest/env_ground.png
+  artifactKey: Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_ground.png using Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1905d1aa0b3a89877a34a952663b35') in 0.008864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.902510 seconds.
+  path: Assets/Forest/env_ground.png
+  artifactKey: Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_ground.png using Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8f335cb148f7267cf384eb49b749c8') in 0.663590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.111568 seconds.
+  path: Assets/Forest/env_ground.png
+  artifactKey: Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_ground.png using Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a965088ec24ef80cb88511a095f3d6') in 0.087582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 213.795202 seconds.
+  path: Assets/Forest/env_ground.png
+  artifactKey: Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest/env_ground.png using Guid(0cd138869cf7d1f4497dbb0c9ddc5e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04e2329ac5bcbd3f559db545b9aa2d') in 0.083167 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
