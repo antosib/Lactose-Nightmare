@@ -1,0 +1,1434 @@
+fileFormatVersion: 2
+guid: 0b4bc921a28c29a4bb4a68864a773362
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5859132210728311734
+    second: spr_VillageTileSetNoBkg_strip_0
+  - first:
+      213: -2296983069720476622
+    second: spr_VillageTileSetNoBkg_strip_1
+  - first:
+      213: 2703778951940328965
+    second: spr_VillageTileSetNoBkg_strip_2
+  - first:
+      213: 8614241376343478634
+    second: spr_VillageTileSetNoBkg_strip_3
+  - first:
+      213: 471411453414823271
+    second: spr_VillageTileSetNoBkg_strip_4
+  - first:
+      213: 6338488405314511637
+    second: spr_VillageTileSetNoBkg_strip_5
+  - first:
+      213: -4030545096489448821
+    second: spr_VillageTileSetNoBkg_strip_6
+  - first:
+      213: -4999365268396867297
+    second: spr_VillageTileSetNoBkg_strip_7
+  - first:
+      213: 6727229527211119196
+    second: spr_VillageTileSetNoBkg_strip_8
+  - first:
+      213: 9067594899623840033
+    second: spr_VillageTileSetNoBkg_strip_9
+  - first:
+      213: -2213486412389036909
+    second: spr_VillageTileSetNoBkg_strip_10
+  - first:
+      213: -5549951069873351672
+    second: spr_VillageTileSetNoBkg_strip_11
+  - first:
+      213: 3232799735221241432
+    second: spr_VillageTileSetNoBkg_strip_12
+  - first:
+      213: 2616502656707476340
+    second: spr_VillageTileSetNoBkg_strip_13
+  - first:
+      213: -3373239165548309033
+    second: spr_VillageTileSetNoBkg_strip_14
+  - first:
+      213: -6544072842410572734
+    second: spr_VillageTileSetNoBkg_strip_15
+  - first:
+      213: -7710232093775690110
+    second: spr_VillageTileSetNoBkg_strip_16
+  - first:
+      213: 5896225571920915473
+    second: spr_VillageTileSetNoBkg_strip_17
+  - first:
+      213: -5859736136251422589
+    second: spr_VillageTileSetNoBkg_strip_18
+  - first:
+      213: 3837239784496402796
+    second: spr_VillageTileSetNoBkg_strip_19
+  - first:
+      213: 1357111863323745720
+    second: spr_VillageTileSetNoBkg_strip_20
+  - first:
+      213: -7862418743249682327
+    second: spr_VillageTileSetNoBkg_strip_21
+  - first:
+      213: -4923021372020491698
+    second: spr_VillageTileSetNoBkg_strip_22
+  - first:
+      213: 2746189106409424977
+    second: spr_VillageTileSetNoBkg_strip_23
+  - first:
+      213: 2613276079898178321
+    second: spr_VillageTileSetNoBkg_strip_24
+  - first:
+      213: 1204475233286178833
+    second: spr_VillageTileSetNoBkg_strip_25
+  - first:
+      213: 1644338016165525527
+    second: spr_VillageTileSetNoBkg_strip_26
+  - first:
+      213: -7510990426987335303
+    second: spr_VillageTileSetNoBkg_strip_27
+  - first:
+      213: 5849219541850879131
+    second: spr_VillageTileSetNoBkg_strip_28
+  - first:
+      213: 4395291329322439492
+    second: spr_VillageTileSetNoBkg_strip_29
+  - first:
+      213: -2742550908667466314
+    second: spr_VillageTileSetNoBkg_strip_30
+  - first:
+      213: -7142016141044788663
+    second: spr_VillageTileSetNoBkg_strip_31
+  - first:
+      213: 8412139763637836952
+    second: spr_VillageTileSetNoBkg_strip_32
+  - first:
+      213: -7359516501667042540
+    second: spr_VillageTileSetNoBkg_strip_33
+  - first:
+      213: 872099454963518375
+    second: spr_VillageTileSetNoBkg_strip_34
+  - first:
+      213: -5212648048331809445
+    second: spr_VillageTileSetNoBkg_strip_35
+  - first:
+      213: 7986782308296799818
+    second: spr_VillageTileSetNoBkg_strip_36
+  - first:
+      213: -4820370669413236252
+    second: spr_VillageTileSetNoBkg_strip_37
+  - first:
+      213: -7671140269789236670
+    second: spr_VillageTileSetNoBkg_strip_38
+  - first:
+      213: -7676801751973314101
+    second: spr_VillageTileSetNoBkg_strip_39
+  - first:
+      213: -5120044940468736221
+    second: spr_VillageTileSetNoBkg_strip_40
+  - first:
+      213: 7310284179592929953
+    second: spr_VillageTileSetNoBkg_strip_41
+  - first:
+      213: 6055988477695834277
+    second: spr_VillageTileSetNoBkg_strip_42
+  - first:
+      213: 896848448297374525
+    second: spr_VillageTileSetNoBkg_strip_43
+  - first:
+      213: -6976154535174756712
+    second: spr_VillageTileSetNoBkg_strip_44
+  - first:
+      213: 6093024524166225717
+    second: spr_VillageTileSetNoBkg_strip_45
+  - first:
+      213: -748617762061369058
+    second: spr_VillageTileSetNoBkg_strip_46
+  - first:
+      213: 3240729087367218669
+    second: blocchidelVillaggio_0
+  - first:
+      213: -54530981164982626
+    second: blocchidelVillaggio_1
+  - first:
+      213: 1084435769240452645
+    second: blocchidelVillaggio_2
+  - first:
+      213: -7672512220290176268
+    second: blocchidelVillaggio_3
+  - first:
+      213: 3183186024033533984
+    second: blocchidelVillaggio_4
+  - first:
+      213: 6356973262828825014
+    second: blocchidelVillaggio_5
+  - first:
+      213: -3321448242258170018
+    second: blocchidelVillaggio_6
+  - first:
+      213: 1854118904233169489
+    second: blocchidelVillaggio_7
+  - first:
+      213: -2288025226978440042
+    second: blocchidelVillaggio_8
+  - first:
+      213: 7631793456431622335
+    second: blocchidelVillaggio_9
+  - first:
+      213: -3468463277625207583
+    second: blocchidelVillaggio_10
+  - first:
+      213: 4791139448701776716
+    second: blocchidelVillaggio_11
+  - first:
+      213: -3164252451326346968
+    second: blocchidelVillaggio_12
+  - first:
+      213: 3269936088546046825
+    second: blocchidelVillaggio_13
+  - first:
+      213: 2713315159992959578
+    second: blocchidelVillaggio_14
+  - first:
+      213: 1811274028924711973
+    second: blocchidelVillaggio_15
+  - first:
+      213: 7008825755535622622
+    second: blocchidelVillaggio_16
+  - first:
+      213: 8527891448634903413
+    second: blocchidelVillaggio_17
+  - first:
+      213: 6301403040465727845
+    second: blocchidelVillaggio_18
+  - first:
+      213: -3061458115206240527
+    second: blocchidelVillaggio_19
+  - first:
+      213: 3717810752311991807
+    second: blocchidelVillaggio_20
+  - first:
+      213: 3314905078823538170
+    second: blocchidelVillaggio_21
+  - first:
+      213: 430125113132338661
+    second: blocchidelVillaggio_22
+  - first:
+      213: -6801638273899145680
+    second: blocchidelVillaggio_23
+  - first:
+      213: -7195906773910559863
+    second: blocchidelVillaggio_24
+  - first:
+      213: -6049638327721796244
+    second: blocchidelVillaggio_25
+  - first:
+      213: 9209528298159615063
+    second: blocchidelVillaggio_26
+  - first:
+      213: -338439064785022065
+    second: blocchidelVillaggio_27
+  - first:
+      213: 6811461760267205925
+    second: blocchidelVillaggio_28
+  - first:
+      213: -1212723143087554472
+    second: blocchidelVillaggio_29
+  - first:
+      213: -1940843720555951659
+    second: blocchidelVillaggio_30
+  - first:
+      213: 7517654422233449151
+    second: blocchidelVillaggio_31
+  - first:
+      213: -4997529036383071405
+    second: blocchidelVillaggio_32
+  - first:
+      213: -9144170829852431333
+    second: blocchidelVillaggio_33
+  - first:
+      213: -8928646563823553477
+    second: blocchidelVillaggio_34
+  - first:
+      213: 8684487988273037659
+    second: blocchidelVillaggio_35
+  - first:
+      213: -7185122386816335895
+    second: blocchidelVillaggio_36
+  - first:
+      213: -7053620162564591558
+    second: blocchidelVillaggio_37
+  - first:
+      213: 8840967768891258562
+    second: blocchidelVillaggio_38
+  - first:
+      213: 8177531061791337100
+    second: blocchidelVillaggio_39
+  - first:
+      213: -3888968581988935546
+    second: blocchidelVillaggio_40
+  - first:
+      213: 615193429023170541
+    second: blocchidelVillaggio_41
+  - first:
+      213: 2752169114855959815
+    second: blocchidelVillaggio_42
+  - first:
+      213: 1372057520383314542
+    second: blocchidelVillaggio_43
+  - first:
+      213: 510107379880498623
+    second: blocchidelVillaggio_44
+  - first:
+      213: -2834435204280858593
+    second: blocchidelVillaggio_45
+  - first:
+      213: 4371470756205618347
+    second: blocchidelVillaggio_46
+  - first:
+      213: 4754390031516270340
+    second: blocchidelVillaggio_47
+  - first:
+      213: -4632103058533103961
+    second: blocchidelVillaggio_48
+  - first:
+      213: 7305890267216457507
+    second: blocchidelVillaggio_49
+  - first:
+      213: -6849686693474966332
+    second: blocchidelVillaggio_50
+  - first:
+      213: -2694053424308289725
+    second: blocchidelVillaggio_51
+  - first:
+      213: 238815106888722886
+    second: blocchidelVillaggio_52
+  - first:
+      213: -4357060769792091685
+    second: blocchidelVillaggio_53
+  - first:
+      213: -8510361267982648461
+    second: blocchidelVillaggio_54
+  - first:
+      213: -4192518392047547781
+    second: blocchidelVillaggio_55
+  - first:
+      213: -8176231169792119313
+    second: blocchidelVillaggio_56
+  - first:
+      213: 7761497920964255067
+    second: blocchidelVillaggio_57
+  - first:
+      213: 8668471877894781425
+    second: blocchidelVillaggio_58
+  - first:
+      213: 4102194619992549843
+    second: blocchidelVillaggio_59
+  - first:
+      213: 5332014927048270836
+    second: blocchidelVillaggio_60
+  - first:
+      213: -2228634456721565500
+    second: blocchidelVillaggio_61
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blocchidelVillaggio_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 16
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de58cc15fe169fc20800000000000000
+      internalID: 3240729087367218669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e586e8c544e3ff0800000000000000
+      internalID: -54530981164982626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52efd472690bc0f00800000000000000
+      internalID: 1084435769240452645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 16
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faa2ce49c2c58590800000000000000
+      internalID: -7672512220290176268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020c188d2d2fc2c20800000000000000
+      internalID: 3183186024033533984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b961997081883850800000000000000
+      internalID: 6356973262828825014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f2b54eb68d7e1d0800000000000000
+      internalID: -3321448242258170018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1529722e1572bb910800000000000000
+      internalID: 1854118904233169489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c41d4bd2d4f30e0800000000000000
+      internalID: -2288025226978440042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 15
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8e1c1b6b399e960800000000000000
+      internalID: 7631793456431622335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 16
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e499a4960b8ddfc0800000000000000
+      internalID: -3468463277625207583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 16
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43fa3da1fb8d7240800000000000000
+      internalID: 4791139448701776716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b80319215614d0800000000000000
+      internalID: -3164252451326346968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_13
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96374043c85216d20800000000000000
+      internalID: 3269936088546046825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 16
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52001323c1a7a520800000000000000
+      internalID: 2713315159992959578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_15
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 16
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524b2fcf120f22910800000000000000
+      internalID: 1811274028924711973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_16
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14f4be3e9544160800000000000000
+      internalID: 7008825755535622622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_17
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 16
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b89fef618295670800000000000000
+      internalID: 8527891448634903413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_18
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 4
+        width: 38
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6363636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561b685dda4137750800000000000000
+      internalID: 6301403040465727845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_19
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 4
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6256480148385d0800000000000000
+      internalID: -3061458115206240527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_20
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 4
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.5833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd1fa17e21589330800000000000000
+      internalID: 3717810752311991807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_21
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 15
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd4a672b98e00e20800000000000000
+      internalID: 3314905078823538170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_22
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 16
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4a31f28c18f500800000000000000
+      internalID: 430125113132338661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_23
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 15
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0365a89c60abb91a0800000000000000
+      internalID: -6801638273899145680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_24
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 16
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983eb382ae0032c90800000000000000
+      internalID: -7195906773910559863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_25
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 15
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ddd884efd5b0ca0800000000000000
+      internalID: -6049638327721796244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_26
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 16
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c26b86131decf70800000000000000
+      internalID: 9209528298159615063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_27
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 15
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f839f55b67f9d4bf0800000000000000
+      internalID: -338439064785022065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_28
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 16
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d32edd16c278e50800000000000000
+      internalID: 6811461760267205925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_29
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8500f550aba8b2fe0800000000000000
+      internalID: -1212723143087554472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_30
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 15
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d907bf4becb015e0800000000000000
+      internalID: -1940843720555951659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_31
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb28e55edd2145860800000000000000
+      internalID: 7517654422233449151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_32
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 16
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353dfa7c1d535aab0800000000000000
+      internalID: -4997529036383071405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_33
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 15
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c28210411691180800000000000000
+      internalID: -9144170829852431333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_34
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 0
+        width: 33
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.6530612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34f8469143171480800000000000000
+      internalID: -8928646563823553477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_35
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 16
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51492d10df758870800000000000000
+      internalID: 8684487988273037659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_36
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 15
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9effa12f141594c90800000000000000
+      internalID: -7185122386816335895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_37
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 16
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30fdc575d18c1e90800000000000000
+      internalID: -7053620162564591558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_38
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 15
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6f077285d61ba70800000000000000
+      internalID: 8840967768891258562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_39
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 2
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.63829786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aabcd9c2d6c7170800000000000000
+      internalID: 8177531061791337100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_40
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 2
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.63829786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68815e7edab970ac0800000000000000
+      internalID: -3888968581988935546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_41
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 16
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def941d0a2b998800800000000000000
+      internalID: 615193429023170541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_42
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 2
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d6ac47a3ba13620800000000000000
+      internalID: 2752169114855959815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_43
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 16
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ac9d99b078a0310800000000000000
+      internalID: 1372057520383314542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_44
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 16
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5151795f3441700800000000000000
+      internalID: 510107379880498623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_45
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 15
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f184afdf2301aa8d0800000000000000
+      internalID: -2834435204280858593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blocchidelVillaggio_46
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 4
+        width: 38
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4e4a1ed759aac30800000000000000
+      internalID: 4371470756205618347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
