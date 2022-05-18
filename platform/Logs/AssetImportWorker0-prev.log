@@ -15,11 +15,11 @@ C:/Users/antonio/Desktop/Lactose-Nightmare/platform
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55620
+63165
 Successfully changed project path to: C:/Users/antonio/Desktop/Lactose-Nightmare/platform
 C:/Users/antonio/Desktop/Lactose-Nightmare/platform
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002018 seconds.
+Registered in 0.002206 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.392 seconds
+- Completed reload, in  0.410 seconds
 Domain Reload Profiling:
-	ReloadAssembly (392ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (410ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (295ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (310ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (123ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (127ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003233 seconds.
+Registered in 0.003624 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.756 seconds
 Domain Reload Profiling:
-	ReloadAssembly (764ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
+			CreateAndSetChildDomain (15ms)
 		EndReloadAssembly (616ms)
 			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (259ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2371 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.4 MB.
 System memory in use after: 103.5 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2804.
-Total: 2.545200 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.209600 ms  DeleteObjects: 0.101300 ms)
+Total: 2.923300 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.097200 ms MarkObjects: 2.504500 ms  DeleteObjects: 0.124000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -136,785 +136,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio
-  artifactKey: Guid(dc4667e9265cb9249bf57dfd2be526fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio using Guid(dc4667e9265cb9249bf57dfd2be526fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d7fdcd9f23a9adad86b92c5fdfa0a6') in 0.004569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 139.847767 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_0.asset
-  artifactKey: Guid(b4f92bba9d8b387438282ea675e9d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_0.asset using Guid(b4f92bba9d8b387438282ea675e9d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f86ec2306480a16747bb7436740081') in 0.057625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_14.asset
-  artifactKey: Guid(88442253928e2d3458bcffdc8f1a9528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_14.asset using Guid(88442253928e2d3458bcffdc8f1a9528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb210d632f332b232d76998f9aac3c94') in 0.009817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_22.asset
-  artifactKey: Guid(39edd5d649216f44bae0a4f809d80c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_22.asset using Guid(39edd5d649216f44bae0a4f809d80c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583872861354fdb852d4769a358f5c31') in 0.010574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_32.asset
-  artifactKey: Guid(65b7e30698f92594697e2e4bb4150aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_32.asset using Guid(65b7e30698f92594697e2e4bb4150aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6339bea9c5efc577866a4e3e0fe91e40') in 0.008143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_29.asset
-  artifactKey: Guid(8cdc1af1eb69de849bea8f56d6cec030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_29.asset using Guid(8cdc1af1eb69de849bea8f56d6cec030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db5a470762913734e57527ec57d2555') in 0.006757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_45.asset
-  artifactKey: Guid(190e9ac34b97e4849be83510c330744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_45.asset using Guid(190e9ac34b97e4849be83510c330744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc3d0895b06d236dd7b82d71a09b2e9') in 0.005850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_16.asset
-  artifactKey: Guid(01ab79483df70a546bf39725e6c0e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_16.asset using Guid(01ab79483df70a546bf39725e6c0e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ccbe30f9dd0e6d005a2e7b9b421f38') in 0.006240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_36.asset
-  artifactKey: Guid(047cbaed99b0d934aa1ff31b66c8ced0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_36.asset using Guid(047cbaed99b0d934aa1ff31b66c8ced0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa198f7d42b3b4c06988c6cd700c764') in 0.010941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_41.asset
-  artifactKey: Guid(971356741aeb7aa4ca3a7ff40192682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_41.asset using Guid(971356741aeb7aa4ca3a7ff40192682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18537bdd6320547612976c8310e414a') in 0.006296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_4.asset
-  artifactKey: Guid(4cb42e56592e2594da7d293eaab09bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_4.asset using Guid(4cb42e56592e2594da7d293eaab09bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b0be98c07fd7d2f45c41d0234a0c50') in 0.007439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_15.asset
-  artifactKey: Guid(7c1b042d058c72e47b3f2787f3cda4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_15.asset using Guid(7c1b042d058c72e47b3f2787f3cda4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9a4994df7f7d247a0a2b337e21d43b') in 0.011809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_1.asset
-  artifactKey: Guid(af274cd922c4bba419d67918e7da0b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_1.asset using Guid(af274cd922c4bba419d67918e7da0b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a8574ace060709ea0c4cfe6e3b2382') in 0.007651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_44.asset
-  artifactKey: Guid(82c8507204f25634dab8c824847b8764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_44.asset using Guid(82c8507204f25634dab8c824847b8764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7080e2e3afd135c6aee7522c8918ec') in 0.005202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_33.asset
-  artifactKey: Guid(b73171f2735bce646b4da563f062d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_33.asset using Guid(b73171f2735bce646b4da563f062d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf567d0a2257c4e2335b7928820d088') in 0.012540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_31.asset
-  artifactKey: Guid(7765aa1a01583b24685c5c1ad921ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_31.asset using Guid(7765aa1a01583b24685c5c1ad921ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8528ebb50274f8c7873915befb19316') in 0.005962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_21.asset
-  artifactKey: Guid(9cd9740bc8bc8c54b9eaf2af950886c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_21.asset using Guid(9cd9740bc8bc8c54b9eaf2af950886c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b304d0b163f71c5867ebbd689b215a8') in 0.006173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_8.asset
-  artifactKey: Guid(afa3a6168681308449e9bdfd21ef0986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_8.asset using Guid(afa3a6168681308449e9bdfd21ef0986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a6ff2c82d4d9a2b65ecdc543e331c4') in 0.006329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_3.asset
-  artifactKey: Guid(eb085da9a59b51f45b67d81a18357ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_3.asset using Guid(eb085da9a59b51f45b67d81a18357ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d715bb0cf02e4555bf1ef24fcea9dd4') in 0.006334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_26.asset
-  artifactKey: Guid(cc52ecd146018bd4690652d6340878b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_26.asset using Guid(cc52ecd146018bd4690652d6340878b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d8df605f49723235d0faecadef1852') in 0.005579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_30.asset
-  artifactKey: Guid(8c20f15d1dcf2634cae57baf7ccf2861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_30.asset using Guid(8c20f15d1dcf2634cae57baf7ccf2861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e85d2bcccc611aa371eb1363049adf') in 0.006706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_10.asset
-  artifactKey: Guid(8c1b68ceed07c73458827d5840b4559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_10.asset using Guid(8c1b68ceed07c73458827d5840b4559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ed01893ba73c020204e4a231d591da') in 0.008736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_5.asset
-  artifactKey: Guid(b5e8893860e66cc4c8151c66f8fc2d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_5.asset using Guid(b5e8893860e66cc4c8151c66f8fc2d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998475ae8bfa99576369a4dbd31a0c57') in 0.007519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_24.asset
-  artifactKey: Guid(a4ea096fffcba1143baaa8bf05850f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_24.asset using Guid(a4ea096fffcba1143baaa8bf05850f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab87bb1f5a6004e2f001aaf479082bdf') in 0.009697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_11.asset
-  artifactKey: Guid(c72bca06fe7fa2e44b6117f36ebf4a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_11.asset using Guid(c72bca06fe7fa2e44b6117f36ebf4a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305ead1459eaf5c056fd51934179caf2') in 0.008292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_7.asset
-  artifactKey: Guid(6a2a37d9b78113e49ad7850576c1570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_7.asset using Guid(6a2a37d9b78113e49ad7850576c1570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61effa9107d63d0b4476cc7ef06b8877') in 0.007072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_6.asset
-  artifactKey: Guid(d2588ad80556fa842b47461ea306d620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_6.asset using Guid(d2588ad80556fa842b47461ea306d620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bb084a6228959e7a64f92dceb677f0') in 0.010953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_37.asset
-  artifactKey: Guid(51d282eb231c4c343993dca39f336691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_37.asset using Guid(51d282eb231c4c343993dca39f336691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849b68b99f890ec8ad628e4298a5053a') in 0.007425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_39.asset
-  artifactKey: Guid(04324819b1fa4394297cc86b2f4deacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_39.asset using Guid(04324819b1fa4394297cc86b2f4deacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8819da596f9b394acbb4cf3ef2c6b6') in 0.005647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_46.asset
-  artifactKey: Guid(33bb90046caea4643950e033026d43be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_46.asset using Guid(33bb90046caea4643950e033026d43be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8c4aa6f75e7385f254fdea7fa2e8ea') in 0.007092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_40.asset
-  artifactKey: Guid(103dfc4f468d5ba438b900ff2bf4847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_40.asset using Guid(103dfc4f468d5ba438b900ff2bf4847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3b653302781a7503eba9b7782d5c77') in 0.005444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_43.asset
-  artifactKey: Guid(cea10bb0c1fce774cb6e8fc3e7073249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_43.asset using Guid(cea10bb0c1fce774cb6e8fc3e7073249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9042b27d040d144b9fbc066874f0c070') in 0.013651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_17.asset
-  artifactKey: Guid(44c3522bf2ad62b42a9d1ffc45363171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_17.asset using Guid(44c3522bf2ad62b42a9d1ffc45363171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ffa388270ad4801e45cc8722da8c24') in 0.007165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_42.asset
-  artifactKey: Guid(5eb915f5912ab394e867a67fd6009b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_42.asset using Guid(5eb915f5912ab394e867a67fd6009b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fc70150589e6870ed563503251a617') in 0.007096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_9.asset
-  artifactKey: Guid(72da085fdd7df0745b0a9c1f2e7fe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_9.asset using Guid(72da085fdd7df0745b0a9c1f2e7fe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c44c12a6601e45825c81f4ab7f1b78') in 0.009804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_2.asset
-  artifactKey: Guid(1c2d255b5a3f0194b94f015cd66731c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_2.asset using Guid(1c2d255b5a3f0194b94f015cd66731c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c493c01959d8e3a16b3ffdf56b207b47') in 0.005680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_23.asset
-  artifactKey: Guid(2ceba7f38802a604cbafc85166718582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_23.asset using Guid(2ceba7f38802a604cbafc85166718582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a55663188ad8ec2a636aba14ed620cc') in 0.005736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_28.asset
-  artifactKey: Guid(ec7f27a77fff7514d8714f310ae0a0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_28.asset using Guid(ec7f27a77fff7514d8714f310ae0a0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337a7fb2e8fafc1a4e2a143db55a678b') in 0.005673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_20.asset
-  artifactKey: Guid(86f888e44fa508d42866563c0465e880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_20.asset using Guid(86f888e44fa508d42866563c0465e880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5234b592e5df6e9146ac9184b27f853b') in 0.005914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_25.asset
-  artifactKey: Guid(d6208d22a8240824b9c578de65b7fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_25.asset using Guid(d6208d22a8240824b9c578de65b7fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989c52c15f702bb90293c1f17a85eee3') in 0.005322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_38.asset
-  artifactKey: Guid(f01f69474073dad4f8d12788a73b0715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_38.asset using Guid(f01f69474073dad4f8d12788a73b0715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda5816389adabea9897e7e9a06dd22') in 0.011488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_18.asset
-  artifactKey: Guid(2ca1ab03f2e1775499c5b2daae080412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_18.asset using Guid(2ca1ab03f2e1775499c5b2daae080412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4de302d245c1283dac0e66abaa4aac2') in 0.005694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_13.asset
-  artifactKey: Guid(350c566996d4d2448a60079288de1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_13.asset using Guid(350c566996d4d2448a60079288de1c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf8555e418aad46820104b285c6f64e') in 0.005120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_12.asset
-  artifactKey: Guid(8c4b8f953e375764f9f6cb26eed6d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_12.asset using Guid(8c4b8f953e375764f9f6cb26eed6d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462d55167446ed52fd21fc33dd46bdd5') in 0.004997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_27.asset
-  artifactKey: Guid(55347059f3e491948a370578810496db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_27.asset using Guid(55347059f3e491948a370578810496db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6ced1a2e47995017833650c4b1081c') in 0.004975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_34.asset
-  artifactKey: Guid(b9e1d46dff8071b45858950d49654d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_34.asset using Guid(b9e1d46dff8071b45858950d49654d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5ef35498e952f3a1d32acd33ac2991') in 0.005299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_35.asset
-  artifactKey: Guid(c6dac0391c4d9964fb684e068792d14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_35.asset using Guid(c6dac0391c4d9964fb684e068792d14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489859cff496c60b64d3961536a46876') in 0.005524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_19.asset
-  artifactKey: Guid(3fe19712bc7a8cb4baff8c9932c83856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/spr_VillageTileSetNoBkg_strip_19.asset using Guid(3fe19712bc7a8cb4baff8c9932c83856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43aa487d764a0c357f9b3f7e9d5e7fb') in 0.005142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 116.744821 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e23d2356221f4896aa9d53da90c790') in 0.125842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.700517 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab1c0846c47f037c9e14453677a2269') in 0.098272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 507.193680 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_0.asset
-  artifactKey: Guid(7a93fb76f4be567478d7672db2e05281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_0.asset using Guid(7a93fb76f4be567478d7672db2e05281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4530a9c9f2804c54a09ddc5dd2a6d5fd') in 0.007178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_4.asset
-  artifactKey: Guid(a06870afce4c01a46852ca664b42379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_4.asset using Guid(a06870afce4c01a46852ca664b42379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194c128a996b0786aab58168884d820d') in 0.006599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_29.asset
-  artifactKey: Guid(76b45e90c5225f74b9a4bd9b148ef0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_29.asset using Guid(76b45e90c5225f74b9a4bd9b148ef0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059843288091c89e07192074f6cbe26e') in 0.005182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_36.asset
-  artifactKey: Guid(6e8db9e12e7512549b95fe3b15eb45a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_36.asset using Guid(6e8db9e12e7512549b95fe3b15eb45a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2a414af31c9fe9930779312057581') in 0.010333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_8.asset
-  artifactKey: Guid(d9279fe0231b32342b77913178424d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_8.asset using Guid(d9279fe0231b32342b77913178424d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d4d3dbc1ac07f3e543904d3bd45f4c') in 0.006757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_6.asset
-  artifactKey: Guid(3df9f23c2227ccd4b83de82e3b350d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_6.asset using Guid(3df9f23c2227ccd4b83de82e3b350d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0b182fe42f7eb1f6a0c59cba5255f') in 0.006673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_21.asset
-  artifactKey: Guid(24e7d8c3214da5c46a1604457c76c790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_21.asset using Guid(24e7d8c3214da5c46a1604457c76c790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aafb7ac11e3b207a9463ba58fecb3c') in 0.006025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_7.asset
-  artifactKey: Guid(9927c0bd170694f45be1034f4b6fad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_7.asset using Guid(9927c0bd170694f45be1034f4b6fad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a90f7774710335b207c598eae00106b') in 0.009024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_26.asset
-  artifactKey: Guid(439be468293f78a41be97257bcaf38bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_26.asset using Guid(439be468293f78a41be97257bcaf38bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93be05ef78a6cc17ac38ee06e1f5fe97') in 0.008509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_45.asset
-  artifactKey: Guid(1b3509e59c35d514b890ede8f9b3ca8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_45.asset using Guid(1b3509e59c35d514b890ede8f9b3ca8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806eda1a5c73566abd6f53fbfc36ec8c') in 0.005221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_3.asset
-  artifactKey: Guid(738c338beee8faa428741071cff2b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_3.asset using Guid(738c338beee8faa428741071cff2b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac91db1f4699db9ed28fa34b24ecac7a') in 0.006497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_37.asset
-  artifactKey: Guid(1d2afc0006c12cc4fa716a9a7e4c3cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_37.asset using Guid(1d2afc0006c12cc4fa716a9a7e4c3cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b092f1964b2506d884ca217328d0f4') in 0.005312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_11.asset
-  artifactKey: Guid(334b0c588c210554e97f9c5aeb040617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_11.asset using Guid(334b0c588c210554e97f9c5aeb040617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434a75763efb2743e042bcfdaaf60027') in 0.007415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_33.asset
-  artifactKey: Guid(f69469e09d8926b499fc67bb9ecb1f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_33.asset using Guid(f69469e09d8926b499fc67bb9ecb1f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5400eef149cc9f2c925d95eefac65ec3') in 0.005840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_32.asset
-  artifactKey: Guid(4cbb895bd418ea24b8a96f737570c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_32.asset using Guid(4cbb895bd418ea24b8a96f737570c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7f364fb0f8189b9d2e4812a8e12388') in 0.006633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_20.asset
-  artifactKey: Guid(236bd074cf04d6b40bf635823128a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_20.asset using Guid(236bd074cf04d6b40bf635823128a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47a38ef0c3cfe5adc5c0b8835d117fb') in 0.005420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_34.asset
-  artifactKey: Guid(a501d7b0c1f51c743aed87503e2c5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_34.asset using Guid(a501d7b0c1f51c743aed87503e2c5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b42581192b635571f27a1116555f47') in 0.005551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_22.asset
-  artifactKey: Guid(f79e9e84ad9206e4da7c54a1b398c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_22.asset using Guid(f79e9e84ad9206e4da7c54a1b398c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaffd420a6614a08fbb8b275df4aca5') in 0.005134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_25.asset
-  artifactKey: Guid(1d047ecdccba39c4bbd5136d65bded3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_25.asset using Guid(1d047ecdccba39c4bbd5136d65bded3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fde8afa091312824baae7a9a646170') in 0.008618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_2.asset
-  artifactKey: Guid(ab768d112c4b9cb4d90c712ab468a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_2.asset using Guid(ab768d112c4b9cb4d90c712ab468a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0262f06ba19a08b53e53bd31b5583a') in 0.013928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_35.asset
-  artifactKey: Guid(39f2ac9679d89d1418ec00d97a41cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_35.asset using Guid(39f2ac9679d89d1418ec00d97a41cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1422673955bf5ad4b3bac677ca6c36a') in 0.005504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_19.asset
-  artifactKey: Guid(b512b69dbc9efcb4db9ff99bf72e9acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_19.asset using Guid(b512b69dbc9efcb4db9ff99bf72e9acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02ea5f6fa79519a41cbf5e1ff8d3e15') in 0.006650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_12.asset
-  artifactKey: Guid(2a085b48b9031e2439566d589cb4fba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_12.asset using Guid(2a085b48b9031e2439566d589cb4fba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c700d6a980b05fdd47d89f9f34d1edec') in 0.005151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_40.asset
-  artifactKey: Guid(aa6dcfed58d493247b28e9dfb841e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_40.asset using Guid(aa6dcfed58d493247b28e9dfb841e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc5bdb9854a22684ffdd749a667d36e') in 0.006557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_41.asset
-  artifactKey: Guid(0863f076fa93a5a44a3d4a56b0bf5b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_41.asset using Guid(0863f076fa93a5a44a3d4a56b0bf5b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a735da1b0e1ea100774525765ac304a5') in 0.005727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_16.asset
-  artifactKey: Guid(29edec32eeddd7e43a730c3ec6668f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_16.asset using Guid(29edec32eeddd7e43a730c3ec6668f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2bc895ca74b7538a55f8976f5f5bcf') in 0.005880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_38.asset
-  artifactKey: Guid(9f7641fd6a09c6843803ec1a81a0002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_38.asset using Guid(9f7641fd6a09c6843803ec1a81a0002c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd704bc4f794ff93a3bfbf58d69f010e5') in 0.005131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_10.asset
-  artifactKey: Guid(b2508d9b1765d744eac92ebd7213e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_10.asset using Guid(b2508d9b1765d744eac92ebd7213e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95692e3ba02ea729ec4e0591775118be') in 0.007156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_24.asset
-  artifactKey: Guid(5afd6f93e62ee884fbda395de44f0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_24.asset using Guid(5afd6f93e62ee884fbda395de44f0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8cdb3860797aa3b79babaa3f59c3c9') in 0.005486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_5.asset
-  artifactKey: Guid(862c19bd1fbc1704fadb4aff438e3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_5.asset using Guid(862c19bd1fbc1704fadb4aff438e3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22f4c642b3fb1e6b9d74449604a3ed9') in 0.005998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_46.asset
-  artifactKey: Guid(c9ef0c50ee291894aaf95dd07fa96103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_46.asset using Guid(c9ef0c50ee291894aaf95dd07fa96103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54e731d3364ca768d83837e0393e904') in 0.005640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_28.asset
-  artifactKey: Guid(79047ada071445a4bb1d4fb65c26d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_28.asset using Guid(79047ada071445a4bb1d4fb65c26d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b847e8290af333c9f9b1e2ae40e6cda') in 0.007007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_27.asset
-  artifactKey: Guid(69af1e5100573a741b2d0b154625806b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_27.asset using Guid(69af1e5100573a741b2d0b154625806b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e73497bb9553f33cf21b3bf81022c5') in 0.006116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_18.asset
-  artifactKey: Guid(9309eb46932994a429e11bc8d06ea8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_18.asset using Guid(9309eb46932994a429e11bc8d06ea8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6f9569918e5e43784426af0c382b6e') in 0.005454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_30.asset
-  artifactKey: Guid(c55e00199c195f747a7226bd13d951ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_30.asset using Guid(c55e00199c195f747a7226bd13d951ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbb48937993965f2698ea003110178a') in 0.005109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_9.asset
-  artifactKey: Guid(d7278e3614818924a84d178395705f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_9.asset using Guid(d7278e3614818924a84d178395705f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c91e9437e837c7f0791d84d2c91e1fd') in 0.007103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_39.asset
-  artifactKey: Guid(45c0f5f6be20cc443b9bc392aef06a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_39.asset using Guid(45c0f5f6be20cc443b9bc392aef06a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1f9b8d013f6e2fa4be4ca358a2b2a8') in 0.006031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_42.asset
-  artifactKey: Guid(54cc2fd490f765a4a9c75fc876682f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_42.asset using Guid(54cc2fd490f765a4a9c75fc876682f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd85a33714ff9aad9846ed86691aaeb') in 0.005926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_44.asset
-  artifactKey: Guid(1b92c409d701483469b6a30f635671be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_44.asset using Guid(1b92c409d701483469b6a30f635671be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b8802ffe394a475e977c6f7dd7da04') in 0.005325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_1.asset
-  artifactKey: Guid(08584ec41f13ef44eb14beafe4006944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_1.asset using Guid(08584ec41f13ef44eb14beafe4006944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740e3fd2aeac4d2814fdfe17194503d6') in 0.006545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_23.asset
-  artifactKey: Guid(de3860b448c293b4a8aad7bfd132c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_23.asset using Guid(de3860b448c293b4a8aad7bfd132c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8253bc9c7bdd7bc015b3d465c0f6a404') in 0.005812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_31.asset
-  artifactKey: Guid(6ed30d6259a0fb444a2237c56dc6b094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_31.asset using Guid(6ed30d6259a0fb444a2237c56dc6b094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5def630e710eaebf5ecba43635d81952') in 0.005711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_13.asset
-  artifactKey: Guid(30162fbf036c1604f990ac3cde006c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_13.asset using Guid(30162fbf036c1604f990ac3cde006c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b25c3b0e2af2c271397b6f9d070cb16') in 0.005595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_15.asset
-  artifactKey: Guid(c40233c64ccb1d7459ebf73a87357691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_15.asset using Guid(c40233c64ccb1d7459ebf73a87357691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f04cea9d947576c89e98d46ad9632c5') in 0.007737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_17.asset
-  artifactKey: Guid(36dec35cc005e174d8fc51be71a18a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_17.asset using Guid(36dec35cc005e174d8fc51be71a18a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0580756eea4c49540da11993e8930ae') in 0.005165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_43.asset
-  artifactKey: Guid(8076a6781c3c6e44e856df74f00ae3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_43.asset using Guid(8076a6781c3c6e44e856df74f00ae3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313df34b0c9ee84eb5da824f99d31a4b') in 0.007547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_14.asset
-  artifactKey: Guid(8049b282174d0714787dc8f59be578bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocchidelVillaggio_14.asset using Guid(8049b282174d0714787dc8f59be578bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe41f32607c33fd8a905d35cc60958b') in 0.005579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 233.745256 seconds.
-  path: Assets/Tileset/tilePalette/blocksPalette.prefab
-  artifactKey: Guid(63fc3a9c04802974f887b4133e66d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/tilePalette/blocksPalette.prefab using Guid(63fc3a9c04802974f887b4133e66d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a14191a9e5c6da2d1fe403cd289ff8') in 0.036762 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003479 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
-Domain Reload Profiling:
-	ReloadAssembly (696ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (560ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (222ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.5 MB.
-System memory in use after: 106.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2874.
-Total: 2.386000 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.039100 ms  DeleteObjects: 0.081500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10790.730433 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0c4e2a469f088dfd4d30438576f5dc') in 0.079798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.837132 seconds.
-  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocks.asset
-  artifactKey: Guid(4ab23d7121445bb47b16315dab9cf1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocks.asset using Guid(4ab23d7121445bb47b16315dab9cf1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7e1005a950c5acded97bf318fe8acf') in 0.016673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 865.176125 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44978dda02990eecc035167d15642ed0') in 0.089205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 100.846157 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bc43a1f3ed710a757c5a5f6ad0bf97') in 0.095444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 144.994659 seconds.
-  path: Assets/Tileset/tilePalette/blocksPalette.prefab
-  artifactKey: Guid(63fc3a9c04802974f887b4133e66d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/tilePalette/blocksPalette.prefab using Guid(63fc3a9c04802974f887b4133e66d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0a2cc69c29799ff58df48dedcc9563') in 0.037064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.945132 seconds.
-  path: Assets/Tileset/tilePalette/blocksPalette.prefab
-  artifactKey: Guid(63fc3a9c04802974f887b4133e66d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/tilePalette/blocksPalette.prefab using Guid(63fc3a9c04802974f887b4133e66d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d64d442fbba4d704e847616555ac89') in 0.023071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1632.603591 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419487a9e0fc09f7da0e4d044da86070') in 0.120159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.735238 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bdc3399a78fe500472a9f410e0e093') in 0.069488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.563191 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baab8b72d61975a9e31b662e00b98570') in 0.097206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.717930 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc7172172cbb38773e4c4f8b4acac7d') in 0.064698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.526072 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16191f909ff86e53ec671183e62921b') in 0.100447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 366.742263 seconds.
-  path: Assets/Tileset/blocchidelVillaggio.png
-  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fe6519a228a18582002c03d9db2a1e') in 0.097854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 458.098902 seconds.
   path: Assets/Tileset/prova.asset
   artifactKey: Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/prova.asset using Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a39f585a83eaa176e5c2b7a2d0b0db8') in 0.004447 seconds 
+Start importing Assets/Tileset/prova.asset using Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ac7678b8f44655b6b3cbe157f38df2') in 0.069071 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003230 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
-Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (214ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.6 MB.
-System memory in use after: 106.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2883.
-Total: 2.458400 ms (FindLiveObjects: 0.133100 ms CreateObjectMapping: 0.059100 ms MarkObjects: 2.180700 ms  DeleteObjects: 0.084900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 5377.220985 seconds.
+  path: Assets/Tileset/blocchidelVillaggio.png
+  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a0142b61866318ae1db7ad18b9bb08') in 0.139402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 986.553879 seconds.
+  path: Assets/Tileset/blocchidelVillaggio.png
+  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736ed33492d6529df478c99d991b4983') in 0.095692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.219610 seconds.
+  path: Assets/Tileset/blocchidelVillaggio.png
+  artifactKey: Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/blocchidelVillaggio.png using Guid(0b4bc921a28c29a4bb4a68864a773362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd3288e6e3df45847e60d87291a7333') in 0.101846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.892359 seconds.
+  path: Assets/Tileset/prova.asset
+  artifactKey: Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/prova.asset using Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e05070d83511541c59c8fcb0420de06') in 0.008616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.042891 seconds.
+  path: Assets/Tileset/tileRuleBlocchiVillaggio.asset
+  artifactKey: Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/tileRuleBlocchiVillaggio.asset using Guid(0aa697d48af62f14e81083a9072c2096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac64d07bb1bbc02cd3bf78a827a97b2') in 0.007692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.182060 seconds.
+  path: Assets/Tileset/Tiles/blocchiDelVillaggio/blocks.asset
+  artifactKey: Guid(4ab23d7121445bb47b16315dab9cf1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Tiles/blocchiDelVillaggio/blocks.asset using Guid(4ab23d7121445bb47b16315dab9cf1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630e885536f0cd8de5db2c2c9c3f7b79') in 0.006777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.861409 seconds.
+  path: Assets/Tileset/Tiles/blocchidelVillaggio_46.asset
+  artifactKey: Guid(31006cbb8c287cd4b91ab01112ae14b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Tiles/blocchidelVillaggio_46.asset using Guid(31006cbb8c287cd4b91ab01112ae14b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5d7fb4f336694f71503d2fe312e89') in 0.006428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.818561 seconds.
+  path: Assets/Tileset/Tiles/blocchidelVillaggio_0.asset
+  artifactKey: Guid(655e5335520b1bc4db6f91caf62cbe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Tiles/blocchidelVillaggio_0.asset using Guid(655e5335520b1bc4db6f91caf62cbe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3717be10136e713b6e64e4280894f8a3') in 0.006045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.415966 seconds.
+  path: Assets/Tileset/Tiles/blocchidelVillaggio_45.asset
+  artifactKey: Guid(d3b3d3b16d90160438f5cb2d37d85141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Tiles/blocchidelVillaggio_45.asset using Guid(d3b3d3b16d90160438f5cb2d37d85141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33202ef99c4418ba4bd2833f2e81aee') in 0.008341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.934013 seconds.
+  path: Assets/Tileset/Tiles/blocchidelVillaggio_4.asset
+  artifactKey: Guid(17fe2d79292ed274bafe2f33d56ed8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Tiles/blocchidelVillaggio_4.asset using Guid(17fe2d79292ed274bafe2f33d56ed8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5518e70bce682f1e653cdbc80528489f') in 0.008379 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
