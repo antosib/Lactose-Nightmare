@@ -4,18 +4,31 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Audio;
+
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+   
   
+
+  public GameObject OptionMenu, ResoluctionMenu, AudioMenu, ExitMenu;
+
+  public GameObject fistrInOptionMenu, fistrInResoluctionMenu, fistrInAudioMenu, OptionInMainMenu, ResoluctionInOptionMenu, AudioInOptionMenu, ExitInMainMenu, fistrInExitMenu;
+
+  public Toggle fullScreenTog;
+
   public AudioMixer audioMixer;
+
+  public Slider musicSlider, effectSlider, generalSlider;
 
   public Dropdown resolutionDropdown;
   
   Resolution[] resolutions;
 
   void Start(){
+
+    fullScreenTog.isOn = Screen.fullScreen;
 
     resolutions = Screen.resolutions ;
 
@@ -37,7 +50,6 @@ public class MainMenu : MonoBehaviour
         }
 
     }
-
     resolutionDropdown.AddOptions(options);
     resolutionDropdown.value = currentResolutionIndex;
     resolutionDropdown.RefreshShownValue();
@@ -45,6 +57,14 @@ public class MainMenu : MonoBehaviour
 
   }
 
+  private void Awake()
+  {
+    
+    musicSlider.onValueChanged.AddListener(SetVolumeMusic);
+    effectSlider.onValueChanged.AddListener(SetVolumeEffect);
+    generalSlider.onValueChanged.AddListener(SetVolumeGeneral);
+
+  }
   public void SetResolution(int resolutionIndex){
 
     Resolution resolution = resolutions[resolutionIndex];
@@ -77,9 +97,23 @@ public class MainMenu : MonoBehaviour
 
   }
 
-  public void  SetVolume(float volume){
+  public void  SetVolumeMusic(float volume){
    
-   audioMixer.SetFloat("Volume", volume);
+   audioMixer.SetFloat("MusicVolume", Mathf.Log10(volume)*20);
+   Debug.Log(volume);
+
+  }
+
+   public void  SetVolumeEffect(float volume){
+   
+   audioMixer.SetFloat("EffectVolume", Mathf.Log10(volume)*20);
+   Debug.Log(volume);
+
+  }
+
+   public void  SetVolumeGeneral(float volume){
+   
+   audioMixer.SetFloat("GeneralVolume", Mathf.Log10(volume)*20);
    Debug.Log(volume);
 
   }
@@ -90,7 +124,81 @@ public class MainMenu : MonoBehaviour
 
   }
 
+  public void OpenOptionMenu(){
+
+      OptionMenu.SetActive(true);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(fistrInOptionMenu);
+      
+  }
+
+  public void CloseOptionMenu(){
+
+      OptionMenu.SetActive(false);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(OptionInMainMenu);
+      
+  }
+
+  public void OpenResoluctionMenu(){
+
+      ResoluctionMenu.SetActive(true);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(fistrInResoluctionMenu);
+      
+  }
+
+    public void CloseResoluctionMenu(){
+
+      ResoluctionMenu.SetActive(false);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(ResoluctionInOptionMenu);
+      
+  }
+  
+  public void OpenAudioMenu(){
+
+      AudioMenu.SetActive(true);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(fistrInAudioMenu);
+      
+  }
+
+  public void CloseAudioMenu(){
+
+      AudioMenu.SetActive(false);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(AudioInOptionMenu);
+      
+  }
+
+  public void OpenExitMenu(){
+
+      ExitMenu.SetActive(true);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(fistrInExitMenu);
+
+     
+  }
+  public void CloseExitMenu(){
+
+      ExitMenu.SetActive(false);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(ExitInMainMenu);
+      
+  }
+
+
 
 
 
 }
+
