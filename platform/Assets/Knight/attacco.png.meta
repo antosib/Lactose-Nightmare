@@ -172,12 +172,12 @@ TextureImporter:
       name: attacco_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 19
-        width: 26
-        height: 33
+        x: 55
+        y: 20
+        width: 41
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: attacco_1
       rect:
         serializedVersion: 2
-        x: 198
-        y: 19
-        width: 26
-        height: 33
+        x: 199
+        y: 20
+        width: 41
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: attacco_2
       rect:
         serializedVersion: 2
-        x: 342
-        y: 19
-        width: 26
-        height: 33
+        x: 343
+        y: 20
+        width: 41
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: attacco_3
       rect:
         serializedVersion: 2
-        x: 486
-        y: 19
-        width: 23
-        height: 31
+        x: 487
+        y: 20
+        width: 41
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: attacco_4
       rect:
         serializedVersion: 2
-        x: 630
-        y: 19
-        width: 23
-        height: 31
+        x: 631
+        y: 20
+        width: 41
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: attacco_5
       rect:
         serializedVersion: 2
-        x: 773
-        y: 19
-        width: 44
-        height: 31
+        x: 775
+        y: 20
+        width: 41
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: attacco_6
       rect:
         serializedVersion: 2
-        x: 917
-        y: 19
+        x: 919
+        y: 20
         width: 41
-        height: 31
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: attacco_7
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 19
-        width: 40
-        height: 31
+        x: 1063
+        y: 20
+        width: 41
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,11 +341,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1207
-        y: 19
-        width: 34
-        height: 31
+        y: 20
+        width: 33
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,11 +362,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1340
-        y: 19
-        width: 31
-        height: 33
+        y: 20
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,12 +382,12 @@ TextureImporter:
       name: attacco_10
       rect:
         serializedVersion: 2
-        x: 1485
-        y: 19
-        width: 51
-        height: 36
+        x: 1487
+        y: 20
+        width: 48
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: attacco_11
       rect:
         serializedVersion: 2
-        x: 1638
-        y: 19
-        width: 42
-        height: 31
+        x: 1639
+        y: 20
+        width: 39
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: attacco_12
       rect:
         serializedVersion: 2
-        x: 1782
-        y: 19
-        width: 42
-        height: 29
+        x: 1783
+        y: 20
+        width: 39
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,11 +446,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1931
-        y: 19
+        y: 20
         width: 30
-        height: 31
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,12 +466,12 @@ TextureImporter:
       name: attacco_14
       rect:
         serializedVersion: 2
-        x: 2081
-        y: 19
-        width: 29
-        height: 31
+        x: 2082
+        y: 20
+        width: 27
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: attacco_15
       rect:
         serializedVersion: 2
-        x: 2224
-        y: 19
-        width: 24
-        height: 31
+        x: 2226
+        y: 20
+        width: 21
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: attacco_16
       rect:
         serializedVersion: 2
-        x: 2374
-        y: 19
-        width: 21
-        height: 31
+        x: 2375
+        y: 20
+        width: 18
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -529,12 +529,12 @@ TextureImporter:
       name: attacco_17
       rect:
         serializedVersion: 2
-        x: 2529
-        y: 19
-        width: 54
-        height: 28
+        x: 2531
+        y: 20
+        width: 51
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,11 +551,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2675
-        y: 19
-        width: 41
-        height: 29
+        y: 20
+        width: 40
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -571,12 +571,12 @@ TextureImporter:
       name: attacco_19
       rect:
         serializedVersion: 2
-        x: 2818
-        y: 19
-        width: 24
-        height: 29
+        x: 2819
+        y: 20
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -592,12 +592,12 @@ TextureImporter:
       name: attacco_20
       rect:
         serializedVersion: 2
-        x: 2962
-        y: 19
-        width: 23
-        height: 29
+        x: 2963
+        y: 20
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -613,12 +613,12 @@ TextureImporter:
       name: attacco_21
       rect:
         serializedVersion: 2
-        x: 3106
-        y: 19
-        width: 25
-        height: 29
+        x: 3107
+        y: 20
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

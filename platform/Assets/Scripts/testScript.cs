@@ -14,6 +14,13 @@ public class testScript : MonoBehaviour
    //layer contenente tutti gli oggetti che rappresentano il ground
    [SerializeField] private LayerMask groundLayer;
    
+   //vita del player
+   [SerializeField]private int maxHealth = 100;
+   private int currentHealth;
+   
+   //layer contenente tutti gli oggetti che rappresentano il wall
+  // [SerializeField] private LayerMask wallLayer;
+   
    //riferimento alla barra della vita
    [SerializeField] HealthBar healthBar;
    //flag per controllare se il player si rivolge verso destra
@@ -33,12 +40,34 @@ public class testScript : MonoBehaviour
    //consente di attuare le collisioni
    private BoxCollider2D boxCollider;
    
+   
+   //blocco variabili per la gestione del salto anticipato
+   private float hangTime = 2f;
+   private float hangTimeCounter;
+   private float jumpBufferTime = 0.2f;
+   private float jumpBufferCounter;    
+
    private bool grounded;
    private bool jump;
-   private int maxHealth = 100;
-   private int currentHealth;
+   private bool run;
+   private bool attack ;
+   
+   
+   private Vector2 rollDir;
+   private float rollSpeed;
+
+   public Transform attackPoint;
+   private float attackRange = 0.5f;
+   
+   private enum State
+   {
+       normal,rolling
+   }
 
 
+
+
+   private State state;
    // Start is called before the first frame update
    private void Start()
    { 
@@ -49,46 +78,106 @@ public class testScript : MonoBehaviour
         anim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        state = State.normal;
    }
 
    // metodo che gestisce gli input e le animazioni
     private void Update()
     {
-       
-        
-        anim.SetBool("run",xInput != 0);
+        switch (state)
+        {
+            case State.normal:
+                HandleInput();
+                HandleAnimations();
+                break;
+            
+            case State.rolling:
+                
+                float rollSpeedMultiplier = 1.5f; 
+                rollSpeed -= rollSpeed * rollSpeedMultiplier * Time.deltaTime;
+                float rollSpeedMinimum = 0.1f;
+                
+               
+                    if (rollSpeed < 1f)
+                {
+                    
+                    state =  State.normal;
 
-        HandleInput();
-        HandleAnimations();
+                }
+                
+                
+                break;
+        }
         
+        
+          
+                
+
+
+
+
+
+
     }
     
     //vanno messe le parti che sfruttano la fisica di unity
     private void FixedUpdate()
     {
-        xInput = Input.GetAxis("Horizontal");
-        yInput = Input.GetAxis("Vertical");
+        switch (state)
+        { 
+            case State.normal:
+                
+                xInput = Input.GetAxis("Horizontal");
+                yInput = Input.GetAxis("Vertical");
         
-        body.velocity = new Vector2(xInput * speed, body.velocity.y );
+                body.velocity = new Vector2(xInput * speed, body.velocity.y );
        
 
-        if (xInput > 0 && facingRight != true)
-        {
-            Flip();
+                if (xInput > 0 && facingRight != true)
+                {
+                    Flip();
+                }
+        
+                if (xInput < 0 && facingRight == true)
+                {
+                    Flip();
+                }
+        
+        
+                if (IsGrounded())
+                {
+                    grounded = true;
+                    hangTimeCounter = hangTime;
+                }
+                else
+                {
+                    grounded = false;
+                    hangTimeCounter -= Time.deltaTime;
+                }
+        
+        
+                if (jump)
+                {
+                    Jump();
+                    jump = false;
+                }
+
+                break;
+            
+            case State.rolling:
+                print("roll State");
+                
+                print(" rollSpeed"+rollSpeed+"\n");
+                print(" rollDir"+rollDir+"\n");
+                
+                body.velocity = rollSpeed*rollDir; 
+               
+
+                break;
+                
+
         }
         
-        if (xInput < 0 && facingRight == true)
-        {
-            Flip();
-        }
-        
-        
-        if (jump && IsGrounded() )
-        {
-            Jump();
-            jump = false;
-           
-        }
         
         
        
@@ -100,8 +189,12 @@ public class testScript : MonoBehaviour
     private void Jump()
     {
         //ForceMode2D.Impulse is useful if Jump() is called using GetKeyDown
-        body.AddForce(Vector2.up * body.mass * jumpForce, ForceMode2D.Impulse);
+        body.velocity = new Vector2(body.velocity.x, jumpForce);
         
+        anim.SetBool("try",true);
+        hangTimeCounter = 0f;
+        jumpBufferCounter = 0f;
+
     }
 
     private void Flip()
@@ -121,25 +214,24 @@ public class testScript : MonoBehaviour
     }
     
     private void HandleAnimations()
-    {
-        if (!IsGrounded() )
+    {   
+        anim.SetBool("run",xInput != 0);
+        if (grounded)
         {
+            anim.SetBool("grounded", true);
+            
+            
+        }else {
             anim.SetBool("grounded", false);
 
             //Set the animator velocity equal to 1 * the vertical direction in which the player is moving 
             if (body.velocity.y < 0)
             {
-                
+                anim.SetBool("try",false);
+                anim.SetTrigger("fall");
             }
-            anim.SetFloat("velocityY", 1 * Mathf.Sign(body.velocity.y));
+           
         }
-
-        if (IsGrounded())
-        {
-            anim.SetBool("grounded", true);
-            anim.SetFloat("velocityY", 0);
-        }
-        
         if (currentHealth<=0)
         {
             anim.SetTrigger("death");
@@ -149,19 +241,63 @@ public class testScript : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpBufferCounter = jumpBufferTime;
+
+        }
+        else
+        {
+            jumpBufferCounter -= jumpBufferTime;
+        }
+        
+        
+        if (jumpBufferCounter>0 && hangTimeCounter>0 )
         {
             jump = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+
+        if (Input.GetKey(KeyCode.C) && IsGrounded())
         {
-            currentHealth -= 20; 
-            healthBar.SetHealthBar(currentHealth);
+            attack = true;
+            Attack();
+
         }
+        
+        
+
+        if (Input.GetKeyDown(KeyCode.Z) && Input.GetKey(KeyCode.LeftArrow) && IsGrounded())
+        {
+            anim.SetTrigger("roll");
+            rollDir = Vector2.left;
+            rollSpeed = speed;
+            state = State.rolling;
+
+
+        }
+        
+        
+        if (Input.GetKeyDown(KeyCode.Z) && Input.GetKey(KeyCode.RightArrow) && IsGrounded())
+        {
+            anim.SetTrigger("roll");
+            
+            rollDir = Vector2.right;
+            state = State.rolling;
+            rollSpeed =  speed;
+        }
+        
 
         
     }
 
- 
+
+    private void Attack()
+    {
+        anim.SetTrigger("attack_1");
+        
+    }
+    
+    
 }
