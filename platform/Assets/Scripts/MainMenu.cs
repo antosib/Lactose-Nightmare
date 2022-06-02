@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Audio;
+using TMPro;
 
 using UnityEngine.UI;
 
@@ -12,15 +13,17 @@ public class MainMenu : MonoBehaviour
    
   
 
-  public GameObject OptionMenu, ResoluctionMenu, AudioMenu, ExitMenu;
+  public GameObject OptionMenu, ResoluctionMenu, AudioMenu, ExitMenu, CreditMenu;
 
-  public GameObject fistrInOptionMenu, fistrInResoluctionMenu, fistrInAudioMenu, OptionInMainMenu, ResoluctionInOptionMenu, AudioInOptionMenu, ExitInMainMenu, fistrInExitMenu;
+  public GameObject fistrInOptionMenu, fistrInResoluctionMenu, fistrInAudioMenu, OptionInMainMenu, ResoluctionInOptionMenu, AudioInOptionMenu, ExitInMainMenu, fistrInExitMenu, fistrInCreditMenu, CreditInMainMenu;
 
   public Toggle fullScreenTog;
 
   public AudioMixer audioMixer;
 
   public Slider musicSlider, effectSlider, generalSlider;
+
+  
 
   public Dropdown resolutionDropdown;
   
@@ -177,6 +180,24 @@ public class MainMenu : MonoBehaviour
       EventSystem.current.SetSelectedGameObject(AudioInOptionMenu);
       
   }
+    public void OpenCreditMenu(){
+
+      CreditMenu.SetActive(true);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(fistrInCreditMenu);
+
+     
+  }
+
+    public void CloseCreditMenu(){
+
+      CreditMenu.SetActive(false);
+
+      EventSystem.current.SetSelectedGameObject(null);
+      EventSystem.current.SetSelectedGameObject(CreditInMainMenu);
+      
+  }
 
   public void OpenExitMenu(){
 
@@ -196,7 +217,16 @@ public class MainMenu : MonoBehaviour
       
   }
 
+    private void Update()
+    {
+      
+       if (Input.GetMouseButtonUp(0))
+         {
+             EventSystem.current.SetSelectedGameObject(null);
+         }
 
+
+    }
 
 
 
