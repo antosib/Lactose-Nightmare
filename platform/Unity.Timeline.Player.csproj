@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{59a7d8bd-de66-dab3-0aa8-2ae89e255dcd}</ProjectGuid>
+    <ProjectGuid>{4f0bb029-ba7e-2762-10e1-88ad69315cb4}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -90,8 +90,8 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\AssetUpgrade\TrackUpgrade.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationTrack.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Extensions\TrackExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\IntervalTree.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Audio\AudioPlayableAsset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\IntervalTree.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Playables\NotificationFlags.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Activation\ActivationTrack.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Activation\ActivationMixerPlayable.cs" />
@@ -319,7 +319,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/platform/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -669,7 +669,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{91d2e596-d733-b608-1b30-83417414fa1f}</Project>
+      <Project>{2ceaf766-56ce-b6aa-ff66-63402730b9fb}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

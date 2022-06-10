@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{24a03563-0d4f-4aa5-416e-51168c4ac3f5}</ProjectGuid>
+    <ProjectGuid>{7026e846-c6c4-8030-e0bc-46c9e7410bab}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -107,8 +107,8 @@
      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Character.cs" />
      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteAsset.cs" />
      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ScrollbarEventHandler.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextElement_Legacy.cs" />
      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontFeatureTable.cs" />
+     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextElement_Legacy.cs" />
      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontFeaturesCommon.cs" />
      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\MaterialReferenceManager.cs" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\Unity.TextMeshPro.asmdef" />
@@ -308,7 +308,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/platform/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -658,7 +658,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{91d2e596-d733-b608-1b30-83417414fa1f}</Project>
+      <Project>{2ceaf766-56ce-b6aa-ff66-63402730b9fb}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

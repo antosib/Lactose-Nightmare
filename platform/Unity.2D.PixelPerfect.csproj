@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{35823c21-c771-f8fa-beac-83827ac60c3d}</ProjectGuid>
+    <ProjectGuid>{ad756c91-469b-8313-458f-8d8e950b69d6}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\CinemachinePixelPerfect.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\PixelPerfectCameraInternal.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\PixelPerfectCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\CinemachinePixelPerfect.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\PixelPerfectCameraInternal.cs" />
      <None Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Runtime\Unity.2D.PixelPerfect.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -289,16 +289,16 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/platform/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/platform/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/platform/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/platform/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Users/antonio/Desktop/Lactose-Nightmare/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -648,11 +648,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{eabb327a-1c9c-d0cd-69ba-96a00c2dbc31}</Project>
+      <Project>{44975442-525c-5e47-cbc2-86d45bc36e9b}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{91d2e596-d733-b608-1b30-83417414fa1f}</Project>
+      <Project>{2ceaf766-56ce-b6aa-ff66-63402730b9fb}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

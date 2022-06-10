@@ -1,149 +1,190 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class testScript : MonoBehaviour
 {
     //velocita personaggio
-   [SerializeField] private float speed; 
-   
-   //forza applicata nel salto
-   [SerializeField] private float jumpForce;
-   
-   //layer contenente tutti gli oggetti che rappresentano il ground
-   [SerializeField] private LayerMask groundLayer;
-   
-   //vita del player
-   [SerializeField]private int maxHealth = 100;
-   private int currentHealth;
-   
-   //layer contenente tutti gli oggetti che rappresentano il wall
-  // [SerializeField] private LayerMask wallLayer;
-   
-   //riferimento alla barra della vita
-   [SerializeField] HealthBar healthBar;
-   //flag per controllare se il player si rivolge verso destra
-   private bool facingRight = true;
-   
-   //gestisce le  animazioni
-   private Animator anim;
-   //gestisce gli input provenienti dall'asse x
-   private float xInput;
-   
-   //gestisce gli input provenienti dall'asse y
-   private float yInput;
-   
-   //consente di attuare la gravità nell'oggetto
-   private Rigidbody2D body;
-   
-   //consente di attuare le collisioni
-   private BoxCollider2D boxCollider;
-   
-   
-   //blocco variabili per la gestione del salto anticipato
-   private float hangTime = 2f;
-   private float hangTimeCounter;
-   private float jumpBufferTime = 0.2f;
-   private float jumpBufferCounter;    
+    [SerializeField] public float speed;
 
-   private bool grounded;
-   private bool jump;
-   private bool run;
-   private bool attack ;
-   
-   
-   private Vector2 rollDir;
-   private float rollSpeed;
+    //forza applicata nel salto
+    [SerializeField] private float jumpForce;
 
-   public Transform attackPoint;
-   private float attackRange = 0.5f;
+    //layer contenente tutti gli oggetti che rappresentano il ground
+    [SerializeField] private LayerMask groundLayer;
+
    
-   private enum State
-   {
-       normal,rolling
-   }
+
+    //layer contenente tutti gli oggetti che rappresentano il wall
+    // [SerializeField] private LayerMask wallLayer;
+
+    //riferimento alla barra della vita
+  
+
+    //flag per controllare se il player si rivolge verso destra
+    private bool facingRight = true;
+
+    //gestisce le  animazioni
+    public Animator anim;
+
+    //gestisce gli input provenienti dall'asse x
+    private float xInput;
+
+    //gestisce gli input provenienti dall'asse y
+    private float yInput;
+
+    //consente di attuare la gravità nell'oggetto
+    private Rigidbody2D body;
+
+    //consente di attuare le collisioni
+    private BoxCollider2D boxCollider;
 
 
+    //blocco variabili per la gestione del salto anticipato
+    private float hangTime = 2f;
+    private float hangTimeCounter;
+    private float jumpBufferTime = 0.2f;
+    private float jumpBufferCounter;
+
+    private bool grounded;
+    private bool jump;
+    private bool run;
+    private bool attack;
+    private bool isInvincible;
+    [SerializeField]
+    private float invincibilityDurationSeconds;
+
+    private Vector2 rollDir;
+    private float rollSpeed;
+
+    public Transform attackPoint;
+    [SerializeField] private float attackRange;
+    public LayerMask enemyLayers;
+    public static testScript instance;
+    public HealthSystem healthSystem;
+    public int combo;
+    
+    public GameMaster gm;
 
 
-   private State state;
-   // Start is called before the first frame update
-   private void Start()
-   { 
-        currentHealth = maxHealth;
-        healthBar.SetHealthBarMaxValue(maxHealth);
-        print(healthBar);
 
+
+    public enum State
+    {
+        normal,
+        rolling,
+        attacking,
+        death
+    }
+
+
+
+
+    public State state;
+    // Start is called before the first frame update
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    private void Start()
+    {
+      
         anim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         state = State.normal;
-   }
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+        transform.position = gm.lastCheckPointPos;
+        isInvincible = false;
 
-   // metodo che gestisce gli input e le animazioni
+
+    }
+
+
+    // metodo che gestisce gli input e le animazioni
     private void Update()
     {
         switch (state)
         {
             case State.normal:
+
+
                 HandleInput();
                 HandleAnimations();
                 break;
-            
+
             case State.rolling:
-                
-                float rollSpeedMultiplier = 1.5f; 
+
+                float rollSpeedMultiplier = 1.5f;
                 rollSpeed -= rollSpeed * rollSpeedMultiplier * Time.deltaTime;
-                float rollSpeedMinimum = 0.1f;
-                
-               
-                    if (rollSpeed < 1f)
+
+
+                if (rollSpeed < 1f)
                 {
-                    
-                    state =  State.normal;
+
+                    state = State.normal;
 
                 }
                 
-                
+              
                 break;
+
+
+            case State.attacking:
+                anim.SetBool("run",false);
+                if (!attack)
+                {
+                    state = State.normal;
+                    
+                }
+
+                break;
+            
+            case State.death:
+                if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
+                break;
+
         }
-        
-        
-          
-                
-
-
-
 
 
 
     }
-    
+
     //vanno messe le parti che sfruttano la fisica di unity
     private void FixedUpdate()
     {
         switch (state)
-        { 
+        {
             case State.normal:
-                
+
                 xInput = Input.GetAxis("Horizontal");
                 yInput = Input.GetAxis("Vertical");
-        
-                body.velocity = new Vector2(xInput * speed, body.velocity.y );
-       
+                run = xInput != 0;
+
+
+                body.velocity = new Vector2(xInput * speed, body.velocity.y);
+
+
+
 
                 if (xInput > 0 && facingRight != true)
                 {
+
                     Flip();
                 }
-        
+
                 if (xInput < 0 && facingRight == true)
                 {
                     Flip();
                 }
-        
-        
+
+
                 if (IsGrounded())
                 {
                     grounded = true;
@@ -154,8 +195,8 @@ public class testScript : MonoBehaviour
                     grounded = false;
                     hangTimeCounter -= Time.deltaTime;
                 }
-        
-        
+
+
                 if (jump)
                 {
                     Jump();
@@ -163,35 +204,33 @@ public class testScript : MonoBehaviour
                 }
 
                 break;
-            
+
             case State.rolling:
-                print("roll State");
-                
-                print(" rollSpeed"+rollSpeed+"\n");
-                print(" rollDir"+rollDir+"\n");
-                
-                body.velocity = rollSpeed*rollDir; 
-               
+
+                body.velocity = rollSpeed * rollDir;
+
 
                 break;
-                
+            case State.attacking:
+                body.velocity = Vector2.zero;
+                break;
+            
+            case State.death:
+               
+               
+                break;
+
 
         }
-        
-        
-        
-       
+
     }
-    
-    
-    
 
     private void Jump()
     {
         //ForceMode2D.Impulse is useful if Jump() is called using GetKeyDown
         body.velocity = new Vector2(body.velocity.x, jumpForce);
-        
-        anim.SetBool("try",true);
+
+        anim.SetBool("try", true);
         hangTimeCounter = 0f;
         jumpBufferCounter = 0f;
 
@@ -209,33 +248,38 @@ public class testScript : MonoBehaviour
 
     private Boolean IsGrounded()
     {
-        RaycastHit2D raycast = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down,0.1f,groundLayer);
-        return raycast.collider !=null;
+        RaycastHit2D raycast = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down,
+            0.1f, groundLayer);
+        return raycast.collider != null;
     }
-    
+
     private void HandleAnimations()
-    {   
-        anim.SetBool("run",xInput != 0);
-        if (grounded)
+    {
+        anim.SetBool("run", run);
+        
+        if (IsGrounded())
         {
             anim.SetBool("grounded", true);
-            
-            
-        }else {
+
+
+        }
+        else
+        {
             anim.SetBool("grounded", false);
 
             //Set the animator velocity equal to 1 * the vertical direction in which the player is moving 
             if (body.velocity.y < 0)
             {
-                anim.SetBool("try",false);
+                anim.SetBool("try", false);
                 anim.SetTrigger("fall");
             }
-           
+
         }
-        if (currentHealth<=0)
+
+        if (healthSystem.GetCurrentHealth() <= 0)
         {
             anim.SetTrigger("death");
-            currentHealth = maxHealth;
+            state = State.death;
         }
     }
 
@@ -251,53 +295,118 @@ public class testScript : MonoBehaviour
         {
             jumpBufferCounter -= jumpBufferTime;
         }
-        
-        
-        if (jumpBufferCounter>0 && hangTimeCounter>0 )
+
+
+        if (jumpBufferCounter > 0 && hangTimeCounter > 0)
         {
             jump = true;
         }
 
-
-        if (Input.GetKey(KeyCode.C) && IsGrounded())
+        if (Input.GetMouseButtonDown(0) && grounded && !attack)
         {
+            anim.SetTrigger(""+combo);
+            OnClick();
             attack = true;
-            Attack();
+            state = State.attacking;
 
         }
-        
-        
 
-        if (Input.GetKeyDown(KeyCode.Z) && Input.GetKey(KeyCode.LeftArrow) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Z) && Input.GetKey(KeyCode.LeftArrow) && grounded)
         {
             anim.SetTrigger("roll");
             rollDir = Vector2.left;
             rollSpeed = speed;
             state = State.rolling;
+            TriggersInvulnerability();
 
 
         }
-        
-        
-        if (Input.GetKeyDown(KeyCode.Z) && Input.GetKey(KeyCode.RightArrow) && IsGrounded())
+
+
+        if (Input.GetKeyDown(KeyCode.Z) && Input.GetKey(KeyCode.RightArrow) && grounded)
         {
             anim.SetTrigger("roll");
-            
+
             rollDir = Vector2.right;
             state = State.rolling;
-            rollSpeed =  speed;
+            rollSpeed = speed;
+            TriggersInvulnerability();
+
         }
         
-
-        
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
-
-    private void Attack()
+    void OnClick()
     {
-        anim.SetTrigger("attack_1");
-        
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("ho hittato un" + enemy.name);
+        }
+
+
+    }
+
+    public void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+
+    public bool IsAttacking()
+    {
+        return attack;
+    }
+
+    public bool IsRunning()
+    {
+        return run;
+    }
+
+    public void StartCombo()
+    {
+        attack = false ;
+        if (combo < 3)
+        {
+            combo++;
+        }
+    }
+
+
+    public void FinishAnim()
+    {
+        attack = false;
+        combo = 0;
     }
     
     
+    private IEnumerator BecomeTemporarilyInvincible()
+    {
+        Debug.Log("Player turned invincible!");
+        isInvincible = true;
+        
+        yield return new WaitForSeconds(invincibilityDurationSeconds);
+
+        isInvincible = false;
+        Debug.Log("Player is no longer invincible!");
+    }
+    
+    void TriggersInvulnerability()
+    {
+        if (!isInvincible)
+        {
+            StartCoroutine(BecomeTemporarilyInvincible());
+        }
+    }
+
 }
